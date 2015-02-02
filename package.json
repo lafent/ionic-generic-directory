@@ -1,7 +1,7 @@
 {
   "name": "generic-directory",
   "version": "0.0.1",
-  "repository": "https://",
+  "repository": "https://github.com/lafent/ionic-generic-directory/",
   "description": "generic-directory: an ionic project",
   "dependencies": {
     "gulp": "^3.8.10",
