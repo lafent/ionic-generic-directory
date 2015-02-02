@@ -22,6 +22,7 @@ angular.module('directory', ['ionic', 'directory.controllers', 'directory.servic
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
+  // $ionicConfigProvider.tabs.position('top');
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
@@ -30,7 +31,7 @@ angular.module('directory', ['ionic', 'directory.controllers', 'directory.servic
   $stateProvider
 
   // setup an abstract state for the tabs directive
-    .state('tab', {
+ .state('tab', {
     url: "/tab",
     abstract: true,
     templateUrl: "templates/tabs.html"

@@ -4,7 +4,7 @@
   "repository": "https://",
   "description": "generic-directory: an ionic project",
   "dependencies": {
-    "gulp": "^3.5.6",
+    "gulp": "^3.8.10",
     "gulp-sass": "^0.7.1",
     "gulp-concat": "^2.2.0",
     "gulp-minify-css": "^0.3.0",
@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "bower": "^1.3.3",
-    "gulp": "^3.8.10",
     "gulp-jasmine": "^2.0.0",
     "gulp-karma": "0.0.4",
     "gulp-util": "^2.2.14",
