@@ -1,0 +1,13 @@
+{
+  "name": "directory",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch",
+    "autotest"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
