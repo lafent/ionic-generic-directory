@@ -1,3 +1,5 @@
+"use strict";
+
 // Ionic directory App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
@@ -79,7 +81,7 @@ angular.module('directory', ['ionic', 'directory.controllers', 'directory.servic
         controller: 'AccountCtrl'
       }
     }
-  })
+  });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dashboard');

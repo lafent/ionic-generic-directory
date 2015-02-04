@@ -1,3 +1,5 @@
+"use strict";
+
 angular.module('directory.controllers', [])
 
 .controller('DashCtrl', function($scope) {})
@@ -6,7 +8,7 @@ angular.module('directory.controllers', [])
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
     Chats.remove(chat);
-  }
+  };
 })
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {

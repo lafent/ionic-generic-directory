@@ -1,3 +1,5 @@
+"use strict";
+
 angular.module('directory.services', [])
 
 .factory('Chats', function() {
@@ -46,7 +48,7 @@ angular.module('directory.services', [])
       }
       return null;
     }
-  }
+  };
 })
 
 /**
@@ -92,5 +94,5 @@ angular.module('directory.services', [])
       // Simple index lookup
       return friends[friendId];
     }
-  }
+  };
 });
