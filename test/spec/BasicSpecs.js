@@ -15,7 +15,7 @@ describe("This is a basic test without much going on.", function() {
   });
 
   it("Should expect math to really work.", function() {
-    expect(2 - 3).toBe(-1);
+    expect(2 - 4).toBe(-2);
   });
 
 });

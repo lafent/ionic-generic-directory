@@ -9,5 +9,12 @@
 	"noarg": true,
 	"undef": true,
 	"unused": "vars",
-	"strict": true
+	"strict": true,
+  "jasmine": true,
+  "predef": [
+    "angular", 
+    "window",
+    "cordova", 
+    "StatusBar"
+  ]
 }
